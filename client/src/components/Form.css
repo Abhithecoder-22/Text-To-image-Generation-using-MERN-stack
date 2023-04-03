@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+ 
+  form {
+    border: 1px solid black;
+    margin: 5% 28%;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  label {
+    width: 80%;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  input {
+    display: block;
+    margin-bottom: 25px;
+    height: 6vh;
+    width: 100%;
+  }
+  button {
+    padding: 10px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
